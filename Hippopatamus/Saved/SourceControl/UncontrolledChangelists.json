@@ -6,6 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"/home/long/Desktop/unrealEngineProjects/Hippopatamus/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/TestingLevel.umap",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/Blueprint/BP_Tile1.uasset",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/Blueprint/BP_Enemy.uasset",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/Blueprint/BP_AI_Enemy_Controller.uasset",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/Blueprint/BT_Talky_task.uasset",
+				"/home/long/Desktop/Spring2023/CPSC 491/proj/Typopatamus/Hippopatamus/Content/Blueprint/BP_Enemy_AI_BTree.uasset",
 				"C:/Users/long9/OneDrive/Documents/Unreal Projects/Hippopatamus/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/long9/OneDrive/Documents/Unreal Projects/Hippopatamus/Content/TestingLevel.umap",
 				"C:/Users/long9/OneDrive/Documents/Unreal Projects/Hippopatamus/Content/Assets/Dirt_tile.uasset",
