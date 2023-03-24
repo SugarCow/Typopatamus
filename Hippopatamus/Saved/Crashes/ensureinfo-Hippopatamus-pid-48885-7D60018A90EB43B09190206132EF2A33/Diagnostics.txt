@@ -1,0 +1,32 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 6.2.8-x64v3-xanmod1 (network name: Long)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: !bGraphDataInvalid  [File:./Editor/GraphEditor/Private/SGraphPin.cpp] [Line: 905] "
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-GraphEditor.so!SGraphPin::OnDragEnter(FGeometry const&, FDragDropEvent const&) [/home/long/UnrealEngine-release/Engine/Source/./Editor/GraphEditor/Private/SGraphPin.cpp:723]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessReply(FWidgetPath const&, FReply const&, FWidgetPath const*, FPointerEvent const*, unsigned int) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:3204]
+libUnrealEditor-Slate.so!FSlateApplication::RoutePointerDownEvent(FWidgetPath const&, FPointerEvent const&) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4916]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessMouseButtonDownEvent(TSharedPtr<FGenericWindow, (ESPMode)1> const&, FPointerEvent const&) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4864]
+libUnrealEditor-Slate.so!FSlateApplication::OnMouseDown(TSharedPtr<FGenericWindow, (ESPMode)1> const&, EMouseButtons::Type, UE::Math::TVector2<double>) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4762]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:458]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5287]
+UnrealEditor!GuardedMain(char16_t const*) [/home/long/UnrealEngine-release/Engine/Source/./Runtime/Launch/Private/Launch.cpp:204]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/long/UnrealEngine-release/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x29d8f)
+libc.so.6!__libc_start_main(+0x7f)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
